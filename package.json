@@ -4,12 +4,14 @@
   "description": "Ejemplo de todoapp Node.js",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
     "express": "^4.16.3"
   },
   "engine": {
     "node": "*",
     "npm": "*"
-  },  
+  },
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
