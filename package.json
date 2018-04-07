@@ -2,8 +2,16 @@
   "name": "todoapp-nodejs",
   "version": "1.0.0",
   "description": "Ejemplo de todoapp Node.js",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },  
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/marendo/todoapp-nodejs/issues"
   },
-  "homepage": "https://github.com/marendo/todoapp-nodejs#readme",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "homepage": "https://github.com/marendo/todoapp-nodejs#readme"
 }
